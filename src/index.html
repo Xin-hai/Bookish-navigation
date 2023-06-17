@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <title>书香导航</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="globalHeader">
+      <form
+        class="searchForm"
+        method="get"
+        action="https://www.baidu.com/s"
+        target="_self"
+      >
+        <input name="wd" type="text"  id="inputBar"/>
+        <button type="submit" id="searchButton">搜索</button>
+      </form>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+
+        <li class="last">
+          <div class="addButton">
+            <div class="iconWrapper">
+              <svg class="icon">
+                <use xlink:href="#icon-add"></use>
+              </svg>
+            </div>
+            <div class="text">新增网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="globalFooter">
+      <ul>
+        <li><h3>小提示</h3></li>
+        <li>按键盘上字母可快速进入你想进入的网站</li>
+        <li>新增网址后网址会保留，不用担心丢失</li>
+      </ul>
+    </footer>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="//at.alicdn.com/t/font_3021279_p79og3hjj7l.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
