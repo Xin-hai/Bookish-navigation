@@ -1,6 +1,5 @@
 # 书香导航
-书香导航预览链接：
- [Bookish-navigation](https://xin-hai.github.io/Bookish-navigation/dist/index.html)
+# 预览链接： [Bookish-navigation](https://xin-hai.github.io/Bookish-navigation/dist/index.html)
 # yarn init -y 命令
 初始化package.json
 # yarn  build 命令
